@@ -1,0 +1,7 @@
+path:
+  data_path: ./amd_data
+  result_path: ./results
+
+learning:
+  ratio_val: 0.8
+  n_repeat: 20
