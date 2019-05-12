@@ -1,5 +1,5 @@
 # membership_inference_attack
-## Implementationof the paper : "Membership Inference Attacks Against Machine Learning Models", Shokri et al.
+## Implementation of the paper : "Membership Inference Attacks Against Machine Learning Models", Shokri et al.
 
 I implement the most basic attack which assumes the adversary has the data which comes from the same distribution as the target model’s the training dataset. I choose to evaluate on MNIST,
 CIFAR10 and CIFAR100. I used the framework pytorch for the target and the shadow models and ligth gradient boosting for the attack model.
